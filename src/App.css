@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #dbeafe, #ede9fe, #fce7f3);
+  color: #1e293b;
+}
+
+.dashboard {
+  min-height: 100vh;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.dashboard h1 {
+  margin: 0;
+  color: #1e3a8a;
+  font-size: 36px;
+}
+
+.subtitle {
+  color: #64748b;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 380px;
+  min-height: 300px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  color: #334155;
+  margin-bottom: 25px;
+}
+
+.counter-value,
+.random-value {
+  font-size: 50px;
+  font-weight: bold;
+  color: #2563eb;
+  margin: 20px 0;
+}
+
+.message {
+  color: #dc2626;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 11px 18px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
+
+.increment {
+  background-color: #16a34a;
+}
+
+.decrement {
+  background-color: #dc2626;
+}
+
+.reset {
+  background-color: #64748b;
+}
+
+.generate {
+  background-color: #7c3aed;
+  margin-top: 10px;
+}
+
+.random-value {
+  color: #7c3aed;
+}
